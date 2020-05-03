@@ -1,0 +1,301 @@
+body{
+	background-color: grey;
+}
+
+th{
+	width: 20%;
+	height: auto;
+}
+
+nav{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	display:inline-block;
+	border:none;
+	background-color: rgba(0,0,0,0.8);
+	width:100%;
+	height:auto;
+	text-align: center;
+	z-index:1;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+div{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+
+td{
+	width: 25%;
+	height: auto;
+	align-content: center;
+	border: solid black 3px;
+	padding-bottom: 5px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #626a70;
+	text-align: center;
+	font-size: 200%;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	color: white;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+address{
+	font-family: BigNoodleTitling,Open Sans Gras,sans-serif;
+	font-style: italic;
+	margin: auto;
+	font-size: 130%;
+	text-align: center;
+	display: inline-block;
+	width: 903%;
+	height: auto;
+	background-color: #405275;
+}
+
+.div2{
+	position: absolute;
+	top: 2330px;
+	left: 0px;
+	color: white;
+}
+
+.nav{
+	width: 100%;
+	height: auto;
+}
+
+.marge{
+	margin: 20px;
+}
+
+.navlogo{
+	width: 20%;
+	height: auto;
+}
+
+.lien{
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	font-size: 200%;
+}
+
+.lien:hover{
+	color: orange;
+	font-size: 220%;
+	transition: 0.2s;
+}
+
+.bouldozer:hover{
+	background-color: #c13000;
+	transition: 0.5s;
+}
+
+.brigitte:hover{
+	background-color: #be736e;
+	transition: 0.5s;
+}
+
+.moira:hover{
+	background-color: #7d3abc;
+	transition: 0.5s;
+}
+
+.doomfist:hover{
+	background-color: #815049;
+	transition: 0.5s;
+}
+
+.orisa:hover{
+	background-color: #468c43;
+	transition: 0.5s;
+}
+
+.sombra:hover{
+	background-color: #7359ba;
+	transition: 0.5s;
+}
+
+.genji:hover{
+	background-color: #97ef43;
+	transition: 0.5s;
+}
+
+.mei:hover{
+	background-color: #6faced;
+	transition: 0.5s;
+}
+
+.dva:hover{
+	background-color: #ed93c7;
+	transition: 0.5s;
+}
+
+.chopper:hover{
+	background-color: #b68c52;
+	transition: 0.5s;
+}
+
+.chacal:hover{
+	background-color: #ecbd53;
+	transition: 0.5s;
+}
+
+.lucio:hover{
+	background-color: #85c952;
+	transition: 0.5s;
+}
+
+.soldat76:hover{
+	background-color: #697794;
+	transition: 0.5s;
+}
+
+.zarya:hover{
+	background-color: #e77eb6;
+	transition: 0.5s;
+}
+
+.mccree:hover{
+	background-color: #ae595c;
+	transition: 0.5s;
+}
+
+.bastion:hover{
+	background-color: #7c8f7b;
+	transition: 0.5s;
+}
+
+.hanzo:hover{
+	background-color: #b9b48a;
+	transition: 0.5s;
+}
+
+.ange:hover{
+	background-color: #ebe8bb;
+	transition: 0.5s;
+}
+
+.pharah:hover{
+	background-color: #3e7dca;
+	transition: 0.5s;
+}
+
+.faucheur:hover{
+	background-color: #7d3e51;
+	transition: 0.5s;
+}
+
+.reinhardt:hover{
+	background-color: #929da3;
+	transition: 0.5s;
+}
+
+.symmetra:hover{
+	background-color: #8ebccc;
+	transition: 0.5s;
+}
+
+.torbjorn:hover{
+	background-color: #c0726e;
+	transition: 0.5s;
+}
+
+.tracer:hover{
+	background-color: #d79342;
+	transition: 0.5s;
+}
+
+.fatale:hover{
+	background-color: #9e6aa8;
+	transition: 0.5s;
+}
+
+.winston:hover{
+	background-color: #a2a6bf;
+	transition: 0.5s;
+}
+
+.zenyatta:hover{
+	background-color: #ede582;
+	transition: 0.5s;
+}
+
+.portable{
+	display: none;
+}
+
+@font-face{
+	font-family: "BigNoodleTitling";
+	src: url(../police/big_noodle_titling.ttf);
+}
+
+@media screen and (max-width: 350px){
+	th{
+		font-size: 80%;
+		width: 33%;
+	}
+
+	td{
+		width: 33%;
+		font-size: 180%;
+	}
+
+	div{
+		top: 80px;
+		left: 0px;
+		width: 100%;
+	}
+
+	address{
+		width: 350px;
+		font-size: 120%;
+	}
+
+	.div2{
+		top: 1270px;
+	}
+
+	.marge{
+		margin: 0px 5px 0px 5px;
+	}
+
+	.navlogo{
+		width: 40%;
+	}
+
+	.normal{
+		display: none;
+	}
+
+	.portable{
+		display: inline-block;
+		position: absolute;
+	}
+}
+
+@media screen and (min-width: 1920px){
+	div{
+		top: 110px;
+	}
+
+	address{
+		width: 1920px;
+	}
+
+	.div2{
+		top: 3000px;
+	}
+}

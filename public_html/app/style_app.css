@@ -1,0 +1,172 @@
+body{
+	background-color: grey;
+}
+
+table{
+	width: 100%;
+	height: auto;
+}
+
+th{
+	width: 20%;
+	height: auto;
+}
+
+nav{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	display:inline-block;
+	border:none;
+	background-color: rgba(0,0,0,0.8);
+	width:100%;
+	height:auto;
+	text-align: center;
+	z-index:1;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+h1{
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	font-size: 350%;
+	color: #f99e1a;
+}
+
+p,li{
+	font-family: Comic Sans Gras,sans-serif;
+	font-size: 150%;
+	margin-right: 20%;
+	color: white;
+}
+
+u{
+	font-size: 90%;
+}
+
+li{
+	margin-bottom: 40px;
+}
+
+address{
+	font-family: BigNoodleTitling,Open Sans Gras,sans-serif;
+	font-style: italic;
+	margin: auto;
+	font-size: 130%;
+	text-align: center;
+	display: inline-block;
+	width: 903%;
+	height: auto;
+	background-color: #405275;
+}
+
+.div1{
+	position: absolute;
+	top: 102px;
+	background-color: #626a70;
+	margin-right: 15px;
+	margin-left: 8px;
+	padding: 0px 0px 15px 15px;
+	border: black solid 3px;
+}
+
+.div2{
+	position: absolute;
+	top: 1220px;
+	left: 0px;
+	color: white;
+}
+
+.navlogo{
+	width: 20%;
+	height: auto;
+}
+
+.lien{
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	font-size: 200%;
+}
+
+.lien:hover{
+	color: orange;
+	font-size: 220%;
+	transition: 0.2s;
+}
+
+.link:hover{
+	color: #f99e1a;
+	transition: 0.2s;
+}
+
+.portable{
+		display: none;
+	}
+
+@font-face{
+	font-family: "BigNoodleTitling";
+	src: url(../police/big_noodle_titling.ttf);
+}
+
+@media screen and (max-width: 350px){
+	th{
+		font-size: 80%;
+		width: 33%;
+	}
+
+	address{
+		width: 350px;
+		font-size: 120%;
+	}
+
+	h1{
+		font-size: 250%;
+	}
+
+	p,li{
+		font-size: 130%;
+	}
+
+	.div1{
+		top: 82px;
+		margin-right: 8px;
+		margin-left: 1px;
+		width: 89%;
+		word-wrap: break-word; 
+	}
+
+	.div2{
+		top: 1925px;
+	}
+
+	.navlogo{
+		width: 40%;
+	}
+
+	.normal{
+		display: none;
+	}
+
+	.portable{
+		display: inline-block;
+		position: absolute;
+	}
+}
+
+@media screen and (min-width: 1920px){
+	address{
+	width: 1920px;
+	}
+
+	.div1{
+		top: 133px;
+	}
+
+	.div2{
+		top: 1225px;
+	}
+}

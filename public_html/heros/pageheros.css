@@ -1,0 +1,415 @@
+body{
+	background-color: grey;
+}
+
+th{
+	width: 20%;
+	height: auto;
+}
+
+nav{
+	position:fixed;
+	top: 0px;
+	left: 0px;
+	display:inline-block;
+	border:none;
+	background-color: rgba(0,0,0,0.8);
+	width:100%;
+	height:auto;
+	text-align: center;
+	z-index:1;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+div{
+	position: absolute;
+	top: 80px;
+	left: 0px;
+}
+
+td{
+	border: solid black 3px;
+	background-color: #626a70;
+	font-family: Comic Sans Gras,sans-serif;
+	color: white;
+	font-size: 110%;
+}
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+span{
+	font-weight: bold;
+	font-size: 110%;
+	color: #ff9800;
+}
+
+.pad{
+	padding: 20px;
+	width: 70%;
+}
+
+.minipad{
+	padding: 10px;
+	width: 70%;
+	vertical-align: top;
+}
+
+.nav{
+	width: 100%;
+	height: auto;
+}
+
+.marge{
+	margin: 20px;
+}
+
+.taille{
+	width: 70%;
+}
+
+.navlogo{
+	width: 20%;
+	height: auto;
+}
+
+.lien{
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	font-size: 200%;
+}
+
+.lien:hover{
+	color: orange;
+	font-size: 220%;
+	transition: 0.2s;
+}
+
+.bouldozer{
+	background-color: #c13000;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.brigitte{
+	background-color: #be736e;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.moira{
+	background-color: #7d3abc;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.doomfist{
+	background-color: #815049;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.orisa{
+	background-color: #468c43;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.sombra{
+	background-color: #7359ba;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.genji{
+	background-color: #97ef43;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.mei{
+	background-color: #6faced;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.dva{
+	background-color: #ed93c7;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.chopper{
+	background-color: #b68c52;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.chacal{
+	background-color: #ecbd53;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.lucio{
+	background-color: #85c952;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.soldat76{
+	background-color: #697794;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.zarya{
+	background-color: #e77eb6;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.mccree{
+	background-color: #ae595c;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.bastion{
+	background-color: #7c8f7b;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.hanzo{
+	background-color: #b9b48a;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.ange{
+	background-color: #ebe8bb;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.pharah{
+	background-color: #3e7dca;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.faucheur{
+	background-color: #7d3e51;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.reinhardt{
+	background-color: #929da3;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.symmetra{
+	background-color: #8ebccc;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.torbjorn{
+	background-color: #c0726e;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.tracer{
+	background-color: #d79342;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.fatale{
+	background-color: #9e6aa8;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.winston{
+	background-color: #a2a6bf;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.zenyatta{
+	background-color: #ede582;
+	font-family: BigNoodleTitling,Comic Sans Gras,sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 200%;
+	padding: 0px;
+	height: 360px;
+}
+
+.portable{
+		display: none;
+	}
+
+@font-face{
+	font-family: "BigNoodleTitling";
+	src: url(../police/big_noodle_titling.ttf);
+}
+
+@media screen and (max-width: 350px){
+	th{
+		font-size: 80%;
+		width: 33%;
+	}
+
+	.marge{
+		margin: 8px;
+	}
+
+	.bouldozer, .brigitte, .moira, .doomfist, .orisa, .sombra,
+	.genji, .mei, .dva, .chopper, .chacal, .lucio, .soldat76,.zarya,
+	.mccree, .bastion, .hanzo, .ange, .pharah, .faucheur, .reinhardt,
+	.symmetra, .torbjorn, .tracer, .fatale, .winston, .zenyatta{
+		height: 295px;
+	}
+
+	.navlogo{
+		width: 40%;
+	}
+
+	.normal{
+		display: none;
+	}
+
+	.portable{
+		display: inline-block;
+		position: absolute;
+	}
+}
+
+@media screen and (min-width: 1920px){
+	div{
+		top: 112px;
+	}
+
+	.bouldozer, .brigitte, .moira, .doomfist, .orisa, .sombra,
+	.genji, .mei, .dva, .chopper, .chacal, .lucio, .soldat76,.zarya,
+	.mccree, .bastion, .hanzo, .ange, .pharah, .faucheur, .reinhardt,
+	.symmetra, .torbjorn, .tracer, .fatale, .winston, .zenyatta{
+		height: 465px;
+	}
+}
